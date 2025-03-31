@@ -4,7 +4,7 @@ import Footer from "../Components/Footer";
 import DishesCarousel from "./DishesCarousel";
 import AboutSection from "../Components/AboutSection";
 import SpecialOffers from "../Components/SpecialOffers";
-import HeroSection from "../Components/HEroSection";
+import HeroSection from "../Components/HeroSection";
 import OurSpecial from "../Components/OurSpecial";
 const Home = () => {
   return (
