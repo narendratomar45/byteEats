@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.webp";
 import { IoIosSearch } from "react-icons/io";
-import user from "../assets/images/user1.jpeg";
+import photo from "../assets/images/photo.jpg";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -29,7 +29,7 @@ const Navbar = () => {
         {isLoggedIn ? (
           <div className="w-16 h-16 overflow-hidden rounded-full border-2 border-white">
             <img
-              src={user}
+              src={photo}
               alt="userImage"
               className=" w-full h-full object-cover rounded-full"
             />
